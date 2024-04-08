@@ -17,7 +17,7 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.context import FSMContext
 import asyncio
 
-token = '7167007472:AAEvxsCaPQWFNiDjVJiYBeARvO1vJXq3KaQ'
+token = ''
 bot = Bot(token=token, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 
 router = Router()
